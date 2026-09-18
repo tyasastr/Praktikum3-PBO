@@ -5,9 +5,9 @@ package Praktikum3.Tugas;
 
 public class Rekening {
     // Attributes
-    String nomorRekening;
-    String namaNasabah;
-    double saldo;
+    private String nomorRekening;
+    private String namaNasabah;
+    private double saldo;
     
     // Constructors
     public Rekening(String nomorRekening, String namaNasabah, double saldo) {
