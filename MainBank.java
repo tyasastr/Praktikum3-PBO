@@ -9,7 +9,7 @@ public class MainBank {
 
         try {
             // Penarikan valid
-            akun.tarikTunai(2000000);
+            akun.tarikTunai(3000000);
 
             // Penarikan melebihi saldo, penerapan exception
             akun.tarikTunai(4000000);
