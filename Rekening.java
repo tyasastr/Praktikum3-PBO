@@ -20,7 +20,7 @@ public class Rekening {
     public void tarikTunai(double jumlah) throws SaldoTidakMencukupiException {
         if (jumlah > this.saldo) {
             // Output struk tidak valid, duit kurang
-            System.out.println("--- STRUK PENARIKAN GAGAL ---");
+            System.out.println("--- PENARIKAN GAGAL ---");
             System.out.println("Nasabah: " + this.namaNasabah);
             System.out.println("No. Rekening: " + maskingNomorRekening());
             System.out.printf("Jumlah Tarik: Rp%,.2f\n", jumlah);
