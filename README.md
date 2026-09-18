@@ -1,2 +1,0 @@
-# Praktikum3-PBO
-A-PPBO03_L0325034_TyasastriHningKurniasih
